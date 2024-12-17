@@ -35,6 +35,7 @@ export default function Projects() {
                   {project.appStore && (
                     <a
                       href={project.appStore}
+                       target="_blank"
                       className="flex items-center text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                     >
                       <ExternalLink size={20} className="mr-2" />
