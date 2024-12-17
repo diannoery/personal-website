@@ -22,13 +22,13 @@ export default function Header() {
 
           {/* Social Links and Theme Toggle */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com/diannoery" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+            <a href="https://github.com/diannoery"   rel="noopener noreferrer" target="_blank" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/dian-afrilian-noery/" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/dian-afrilian-noery/"   rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"  target="_blank">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:diannoery29@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+            <a href="mailto:diannoery29@gmail.com"   rel="noopener noreferrer"  target="_blank" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
               <Mail size={20} />
             </a>
             <ThemeToggle />
